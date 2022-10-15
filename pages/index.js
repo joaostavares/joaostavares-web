@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Image from 'next/image'
+import profilePic from '../public/profile.png'
 
 export default function Home() {
   return (
@@ -11,7 +13,14 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-          <img className={styles.profile} src="/profile.png" alt="Profile Picture" />
+          <Image
+            src={profilePic}
+            alt="Profile Picture"
+            height={200}
+            width={200}
+            className={styles.profile}
+            priority
+          />
           <h3 className={styles.description}>João Tavares</h3>
           <div className={styles.grid}>
             <a href="https://github.com/joaostavares" className={styles.card} target="_blank" rel="noopener noreferrer">
