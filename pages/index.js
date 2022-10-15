@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-          <img className={styles.profile} src="/profile.png" />
+          <img className={styles.profile} src="/profile.png" alt="Profile Picture" />
           <h3 className={styles.description}>João Tavares</h3>
           <div className={styles.grid}>
             <a href="https://github.com/joaostavares" className={styles.card} target="_blank" rel="noopener noreferrer">
