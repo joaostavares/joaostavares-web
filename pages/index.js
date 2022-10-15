@@ -20,6 +20,7 @@ export default function Home() {
             width={200}
             className={styles.profile}
             priority
+            placeholder="blur"
           />
           <h3 className={styles.description}>João Tavares</h3>
           <div className={styles.grid}>
