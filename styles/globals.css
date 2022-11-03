@@ -13,6 +13,7 @@ a {
 
 * {
   box-sizing: border-box;
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -21,6 +22,12 @@ a {
   }
   body {
     color: white;
-    background: dimgrey;
+    /*margin: 0;*/
+    /*padding: 0;*/
+
+
+
+    /*background: dimgrey;*/
+    /*background-image: 'url(/public/backgroun.png)';*/
   }
 }
