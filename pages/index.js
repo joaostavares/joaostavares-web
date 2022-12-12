@@ -42,6 +42,7 @@ export default function Home() {
       <footer className={styles.footer}>
           {/*todo*/}
       </footer>
+
     </div>
   )
 }
