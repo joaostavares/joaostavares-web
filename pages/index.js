@@ -30,7 +30,7 @@ export default function Home() {
             <a href="https://www.linkedin.com/in/joaotavaress/" className={styles.card} target="_blank" rel="noopener noreferrer">
               <h3>LinkedIn</h3>
             </a>
-            <a href="https://www.instagram.com/joao.tavares_9/" className={styles.card} target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/joaostavares/" className={styles.card} target="_blank" rel="noopener noreferrer">
               <h3>Instagram</h3>
             </a>
             <a href="https://steamcommunity.com/id/werewolf-gg/" className={styles.card} target="_blank" rel="noopener noreferrer">
