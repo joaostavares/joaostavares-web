@@ -3,6 +3,7 @@ import styles from '../styles/Home.module.css'
 import Image from 'next/image'
 import profilePic from '../public/profile.png'
 import {motion} from 'framer-motion';
+import { Analytics } from '@vercel/analytics/react';
 
 
 export default function Home() {
@@ -104,6 +105,7 @@ export default function Home() {
                     </motion.a>
                 </motion.div>
             </main>
+            <Analytics />
         </div>
     )
 }
