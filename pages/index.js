@@ -2,7 +2,6 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Image from 'next/image'
 import profilePic from '../public/profile.png'
-import bgImage from '../public/background.png'
 import {motion} from 'framer-motion';
 
 
@@ -16,19 +15,6 @@ export default function Home() {
             </Head>
 
             <main className={styles.main}>
-                <div className="absolute top-0 right-0 bottom-0 left-0 object-cover bg-cover"
-                     style={{
-                         backgroundImage: bgImage
-                     }}
-                />
-                {/*<Image*/}
-                {/*    src={bgImage}*/}
-                {/*    alt="Background"*/}
-                {/*    layout="fill"*/}
-                {/*    objectFit='cover'*/}
-                {/*    priority*/}
-                {/*    placeholder="blur"*/}
-                {/*/>*/}
                 <motion.div initial="hidden" animate="visible" variants={{
                     hidden: {
                         scale: .8,
@@ -98,7 +84,7 @@ export default function Home() {
                     }}>
                         <h3>LinkedIn</h3>
                     </motion.a>
-                    <motion.a href="https://www.instagram.com/joao.tavares_9/" className={styles.card} target="_blank"
+                    <motion.a href="https://www.instagram.com/joaostavares/" className={styles.card} target="_blank"
                               rel="noopener noreferrer" whileHover={{
                         scale: 1.1,
                         transition: {
@@ -117,12 +103,7 @@ export default function Home() {
                         <h3>Steam</h3>
                     </motion.a>
                 </motion.div>
-
             </main>
-
-            <footer className={styles.footer}>
-                {/*todo*/}
-            </footer>
         </div>
     )
 }
