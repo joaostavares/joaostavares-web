@@ -16,9 +16,19 @@ export default function Home() {
             </Head>
 
             <main className={styles.main}>
-                <div>
-                    <div className="bg"></div>
-                </div>
+                <div className="absolute top-0 right-0 bottom-0 left-0 object-cover bg-cover"
+                     style={{
+                         backgroundImage: bgImage
+                     }}
+                />
+                {/*<Image*/}
+                {/*    src={bgImage}*/}
+                {/*    alt="Background"*/}
+                {/*    layout="fill"*/}
+                {/*    objectFit='cover'*/}
+                {/*    priority*/}
+                {/*    placeholder="blur"*/}
+                {/*/>*/}
                 <motion.div initial="hidden" animate="visible" variants={{
                     hidden: {
                         scale: .8,
@@ -42,7 +52,7 @@ export default function Home() {
                         placeholder="blur"
                     />
                 </motion.div>
-                <motion.h3 className={styles.description}initial="hidden" animate="visible" variants={{
+                <motion.h3 className={styles.description} initial="hidden" animate="visible" variants={{
                     hidden: {
                         scale: .8,
                         opacity: 0
@@ -71,19 +81,17 @@ export default function Home() {
 
                     <motion.a href="https://github.com/joaostavares" className={styles.card} target="_blank"
                               rel="noopener noreferrer" whileHover={{
-                        scale: 1.15,
+                        scale: 1.1,
                         transition: {
                             duration: .2
-                        },
-                        backgroundColor: '#3d3d3d',
-                        backgroundBlendMode: 'multiply',
+                        }
                     }}>
                         <h3>Github</h3>
                     </motion.a>
 
                     <motion.a href="https://www.linkedin.com/in/joaotavaress/" className={styles.card} target="_blank"
                               rel="noopener noreferrer" whileHover={{
-                        scale: 1.18,
+                        scale: 1.1,
                         transition: {
                             duration: .2
                         }
@@ -92,7 +100,7 @@ export default function Home() {
                     </motion.a>
                     <motion.a href="https://www.instagram.com/joao.tavares_9/" className={styles.card} target="_blank"
                               rel="noopener noreferrer" whileHover={{
-                        scale: 1.18,
+                        scale: 1.1,
                         transition: {
                             duration: .2
                         }
@@ -101,7 +109,7 @@ export default function Home() {
                     </motion.a>
                     <motion.a href="https://steamcommunity.com/id/werewolf-gg/" className={styles.card} target="_blank"
                               rel="noopener noreferrer" whileHover={{
-                        scale: 1.18,
+                        scale: 1.1,
                         transition: {
                             duration: .2
                         }
@@ -109,6 +117,7 @@ export default function Home() {
                         <h3>Steam</h3>
                     </motion.a>
                 </motion.div>
+
             </main>
 
             <footer className={styles.footer}>
