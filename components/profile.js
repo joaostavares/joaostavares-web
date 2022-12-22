@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import profilePic from '../public/profile.png'
+import profilePic from '../public/profile.webp'
 import {motion} from "framer-motion";
 
 function Profile() {
