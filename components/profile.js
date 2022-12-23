@@ -31,7 +31,7 @@ function Profile() {
                         height={300}
                         width={300}
                         objectFit='contain'
-                        priority
+                        loading='lazy'
                         placeholder="blur"
                     />
                 </div>
