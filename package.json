@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "analyze": "cross-env ANALYZE=true next build"
   },
   "dependencies": {
     "@vercel/analytics": "^0.1.6",
@@ -19,6 +20,8 @@
     "tailwindcss": "^3.2.4"
   },
   "devDependencies": {
+    "@next/bundle-analyzer": "^13.1.0",
+    "cross-env": "^7.0.3",
     "eslint": "8.25.0",
     "eslint-config-next": "12.3.1"
   }
