@@ -1,8 +1,7 @@
 import Head from 'next/head'
-import { Analytics } from '@vercel/analytics/react';
+import {Analytics} from '@vercel/analytics/react';
 import Profile from "../components/profile";
 import Buttons from "../components/buttons";
-
 
 export default function Home() {
     return (
