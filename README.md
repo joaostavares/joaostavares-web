@@ -1,20 +1,19 @@
+<div>
+  <p>
+    <img src= "https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white" alt="Next JS"/>
+  </p>
+</div>
+
 A simple web page to add my personal links in a simple way.
 
-[I have some other ideas to apply to this project in my spare time]
-
-### Para executar localmente
-
-Os comandos em ordem:
 
 ```bash
 npm install
-# or
-yarn install
+npm run dev
 ````
 
 ```bash
-npm run dev
-# or
+yarn install
 yarn dev
 ```
 
