@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import profilePic from '../public/profile.webp'
 import {motion} from "framer-motion";
 
 function Profile() {
@@ -26,13 +25,11 @@ function Profile() {
                 via bg-amber-300 to indigo-200 h-48 w-48
                 border-none rounded-full overflow-hidden'>
                     <Image
-                        src={profilePic}
+                        src='/profile.webp'
                         alt='My Profile Picture'
                         height={300}
                         width={300}
                         objectFit='contain'
-                        loading='lazy'
-                        placeholder="blur"
                     />
                 </div>
             </motion.div>

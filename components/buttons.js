@@ -1,9 +1,4 @@
 import React from "react";
-import git from "../public/github.svg"
-import insta from "../public/insta.svg";
-import linkedin from "../public/linkedin.svg"
-import steam from "../public/steam.svg"
-import twitter from "../public/twitter.svg";
 import Image from "next/image";
 import {motion} from "framer-motion";
 
@@ -29,14 +24,14 @@ function Buttons() {
                         transition: {
                             duration: .2
                         }
-                    }} className='text-xl'>
+                    }} className='text-xl font-body'>
                         <a href='https://www.github.com/joaostavares'
                            target={'_blank'}
                            rel={'noreferrer'}
                            className='btn'
                         >
                             <Image
-                                src={git}
+                                src='/github.svg'
                                 alt='Github Logo'
                                 height={24}
                                 width={24}
@@ -64,14 +59,14 @@ function Buttons() {
                         transition: {
                             duration: .2
                         }
-                    }} className='text-xl'>
+                    }} className='text-xl font-body'>
                         <a href='https://www.instagram.com/joaostavares'
                            target={'_blank'}
                            rel={'noreferrer'}
                            className='btn'
                         >
                             <Image
-                                src={insta}
+                                src='/insta.svg'
                                 alt='Instagram Logo'
                                 height={24}
                                 width={24}
@@ -99,14 +94,14 @@ function Buttons() {
                         transition: {
                             duration: .2
                         }
-                    }} className='text-xl'>
+                    }} className='text-xl font-body'>
                         <a href='https://www.linkedin.com/in/joaostavaress'
                            target={'_blank'}
                            rel={'noreferrer'}
                            className='btn'
                         >
                             <Image
-                                src={linkedin}
+                                src='/linkedin.svg'
                                 alt='LinkedIn Logo'
                                 height={24}
                                 width={24}
@@ -134,14 +129,14 @@ function Buttons() {
                         transition: {
                             duration: .2
                         }
-                    }} className='text-xl' >
+                    }} className='text-xl font-body' >
                         <a href='https://steamcommunity.com/id/werewolf-gg/'
                            target={'_blank'}
                            rel={'noreferrer'}
                            className='btn'
                         >
                             <Image
-                                src={steam}
+                                src='/steam.svg'
                                 alt='Steam Logo'
                                 height={24}
                                 width={24}
@@ -169,14 +164,14 @@ function Buttons() {
                         transition: {
                             duration: .2
                         }
-                    }} className='text-xl' >
+                    }} className='text-xl font-body' >
                         <a href='https://twitter.com/joaostavaress/'
                            target={'_blank'}
                            rel={'noreferrer'}
                            className='btn'
                         >
                             <Image
-                                src={twitter}
+                                src='/twitter.svg'
                                 alt='Twitter Logo'
                                 height={24}
                                 width={24}
