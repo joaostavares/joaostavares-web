@@ -41,6 +41,41 @@ function Buttons() {
                         </a>
                     </motion.li>
                 </motion.div>
+                {/*<motion.div initial="hidden" animate="visible" variants={{*/}
+                {/*    hidden: {*/}
+                {/*        scale: .8,*/}
+                {/*        opacity: 0*/}
+                {/*    },*/}
+                {/*    visible: {*/}
+                {/*        scale: 1,*/}
+                {/*        opacity: 1,*/}
+                {/*        transition: {*/}
+                {/*            delay: 0.8*/}
+                {/*        }*/}
+                {/*    },*/}
+                {/*}}>*/}
+                {/*    <motion.li whileHover={{*/}
+                {/*        scale: 1.1,*/}
+                {/*        transition: {*/}
+                {/*            duration: .2*/}
+                {/*        }*/}
+                {/*    }} className='text-xl font-body'>*/}
+                {/*        <a href='https://www.instagram.com/joaostavares'*/}
+                {/*           target={'_blank'}*/}
+                {/*           rel={'noreferrer'}*/}
+                {/*           className='btn'*/}
+                {/*        >*/}
+                {/*            <Image*/}
+                {/*                src='/insta.svg'*/}
+                {/*                alt='Instagram Logo'*/}
+                {/*                height={24}*/}
+                {/*                width={24}*/}
+                {/*                priority*/}
+                {/*            />*/}
+                {/*            &nbsp; Instagram*/}
+                {/*        </a>*/}
+                {/*    </motion.li>*/}
+                {/*</motion.div>*/}
                 <motion.div initial="hidden" animate="visible" variants={{
                     hidden: {
                         scale: .8,
@@ -51,41 +86,6 @@ function Buttons() {
                         opacity: 1,
                         transition: {
                             delay: 0.8
-                        }
-                    },
-                }}>
-                    <motion.li whileHover={{
-                        scale: 1.1,
-                        transition: {
-                            duration: .2
-                        }
-                    }} className='text-xl font-body'>
-                        <a href='https://www.instagram.com/joaostavares'
-                           target={'_blank'}
-                           rel={'noreferrer'}
-                           className='btn'
-                        >
-                            <Image
-                                src='/insta.svg'
-                                alt='Instagram Logo'
-                                height={24}
-                                width={24}
-                                priority
-                            />
-                            &nbsp; Instagram
-                        </a>
-                    </motion.li>
-                </motion.div>
-                <motion.div initial="hidden" animate="visible" variants={{
-                    hidden: {
-                        scale: .8,
-                        opacity: 0
-                    },
-                    visible: {
-                        scale: 1,
-                        opacity: 1,
-                        transition: {
-                            delay: 0.9
                         }
                     },
                 }}>
@@ -111,6 +111,41 @@ function Buttons() {
                         </a>
                     </motion.li>
                 </motion.div>
+                {/*<motion.div initial="hidden" animate="visible" variants={{*/}
+                {/*    hidden: {*/}
+                {/*        scale: .8,*/}
+                {/*        opacity: 0*/}
+                {/*    },*/}
+                {/*    visible: {*/}
+                {/*        scale: 1,*/}
+                {/*        opacity: 1,*/}
+                {/*        transition: {*/}
+                {/*            delay: 1*/}
+                {/*        }*/}
+                {/*    },*/}
+                {/*}}>*/}
+                {/*    <motion.li whileHover={{*/}
+                {/*        scale: 1.1,*/}
+                {/*        transition: {*/}
+                {/*            duration: .2*/}
+                {/*        }*/}
+                {/*    }} className='text-xl font-body' >*/}
+                {/*        <a href='https://steamcommunity.com/id/werewolf-gg/'*/}
+                {/*           target={'_blank'}*/}
+                {/*           rel={'noreferrer'}*/}
+                {/*           className='btn'*/}
+                {/*        >*/}
+                {/*            <Image*/}
+                {/*                src='/steam.svg'*/}
+                {/*                alt='Steam Logo'*/}
+                {/*                height={24}*/}
+                {/*                width={24}*/}
+                {/*                priority*/}
+                {/*            />*/}
+                {/*            &nbsp; Steam*/}
+                {/*        </a>*/}
+                {/*    </motion.li>*/}
+                {/*</motion.div>*/}
                 <motion.div initial="hidden" animate="visible" variants={{
                     hidden: {
                         scale: .8,
@@ -120,42 +155,7 @@ function Buttons() {
                         scale: 1,
                         opacity: 1,
                         transition: {
-                            delay: 1
-                        }
-                    },
-                }}>
-                    <motion.li whileHover={{
-                        scale: 1.1,
-                        transition: {
-                            duration: .2
-                        }
-                    }} className='text-xl font-body' >
-                        <a href='https://steamcommunity.com/id/werewolf-gg/'
-                           target={'_blank'}
-                           rel={'noreferrer'}
-                           className='btn'
-                        >
-                            <Image
-                                src='/steam.svg'
-                                alt='Steam Logo'
-                                height={24}
-                                width={24}
-                                priority
-                            />
-                            &nbsp; Steam
-                        </a>
-                    </motion.li>
-                </motion.div>
-                <motion.div initial="hidden" animate="visible" variants={{
-                    hidden: {
-                        scale: .8,
-                        opacity: 0
-                    },
-                    visible: {
-                        scale: 1,
-                        opacity: 1,
-                        transition: {
-                            delay: 1.1
+                            delay: 0.9
                         }
                     },
                 }}>
