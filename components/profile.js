@@ -28,7 +28,7 @@ function Profile() {
                     width={200}
                     quality='25'
                     className='rounded-full'
-                    priority
+                    priority={true}
                 />
             </motion.div>
             <div>
