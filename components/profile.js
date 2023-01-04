@@ -29,7 +29,8 @@ function Profile() {
                         alt='My Profile Picture'
                         height={300}
                         width={300}
-                        objectFit='contain'
+                        quality='25'
+                        priority
                     />
                 </div>
             </motion.div>
