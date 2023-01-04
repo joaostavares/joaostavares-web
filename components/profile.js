@@ -21,18 +21,15 @@ function Profile() {
                     }
                 },
             }}>
-                <div className='bg-gradient-to-tr from-amber-200
-                via bg-amber-300 to indigo-200 h-48 w-48
-                border-none rounded-full overflow-hidden'>
-                    <Image
-                        src='/profile.webp'
-                        alt='My Profile Picture'
-                        height={300}
-                        width={300}
-                        quality='25'
-                        priority
-                    />
-                </div>
+                <Image
+                    src='/profile.webp'
+                    alt='My Profile Picture'
+                    height={200}
+                    width={200}
+                    quality='25'
+                    className='rounded-full'
+                    priority
+                />
             </motion.div>
             <div>
                 <motion.h2 className='font-body text-xl font-bold text-black' initial="hidden" animate="visible" variants={{
