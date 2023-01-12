@@ -22,11 +22,10 @@ function Profile() {
                 },
             }}>
                 <Image
-                    src='/profile.webp'
+                    src='/profile.jpg'
                     alt='My Profile Picture'
                     height={200}
                     width={200}
-                    quality='25'
                     className='rounded-full'
                     priority={true}
                 />
@@ -45,7 +44,8 @@ function Profile() {
                         }
                     },
                 }}>João Tavares</motion.h2>
-                <motion.h2 initial="hidden" animate="visible" variants={{
+
+                <motion.h2 className='font-body text-gray-700' initial="hidden" animate="visible" variants={{
                     hidden: {
                         scale: .8,
                         opacity: 0
@@ -57,21 +57,7 @@ function Profile() {
                             delay: .6
                         }
                     },
-                }}>
-                    <motion.div whileHover={{
-                        scale: 1.2,
-                        transition: {
-                            duration: .2
-                        }
-                    }} className='font-body text-gray-700'>
-                        <a href='https://www.instagram.com/joaostavares'
-                           target={'_blank'}
-                           rel={'noreferrer'}
-                        >
-                            @joaostavares
-                        </a>
-                    </motion.div>
-                </motion.h2>
+                }}>@joaostavares</motion.h2>
             </div>
         </div>
     );
