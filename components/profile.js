@@ -26,12 +26,12 @@ function Profile() {
                     alt='My Profile Picture'
                     height={200}
                     width={200}
-                    className='rounded-full'
+                    className='rounded-full border-solid border-4 border-white'
                     priority={true}
                 />
             </motion.div>
             <div>
-                <motion.h2 className='font-body text-xl font-bold text-black' initial="hidden" animate="visible" variants={{
+                <motion.h2 className='font-body text-xl font-bold text-white' initial="hidden" animate="visible" variants={{
                     hidden: {
                         scale: .8,
                         opacity: 0
@@ -45,7 +45,7 @@ function Profile() {
                     },
                 }}>João Tavares</motion.h2>
 
-                <motion.h2 className='font-body text-gray-700' initial="hidden" animate="visible" variants={{
+                <motion.h2 className='font-body text-gray-400' initial="hidden" animate="visible" variants={{
                     hidden: {
                         scale: .8,
                         opacity: 0
