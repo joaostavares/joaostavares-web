@@ -5,7 +5,8 @@
 @layer components {
     .btn{
         @apply flex justify-center items-center
-        bg-none border border-gray-600 text-black
+        bg-none border border-white text-white
         px-4 py-2 rounded-lg my-4
     }
+
 }
