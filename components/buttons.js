@@ -25,7 +25,7 @@ function Buttons() {
                             duration: .2
                         }
                     }} className='text-xl font-body'>
-                        <a href='https://www.github.com/joaostavares'
+                        <a href='/github'
                            target={'_blank'}
                            rel={'noreferrer'}
                            className='btn'
