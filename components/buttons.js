@@ -60,7 +60,7 @@ function Buttons() {
                             duration: .2
                         }
                     }} className='text-xl font-body'>
-                        <a href='https://www.linkedin.com/in/joaostavaress'
+                        <a href='https://www.linkedin.com/in/joaotavaress/'
                            target={'_blank'}
                            rel={'noreferrer'}
                            className='btn'
