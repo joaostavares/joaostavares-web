@@ -1,8 +1,12 @@
 import React from "react";
 import Image from "next/image";
 import {motion} from "framer-motion";
+import { event } from "nextjs-google-analytics";
 
 function Buttons() {
+    const handleClick = (e, name) => {
+        event(name)
+    };
     return (
         <div className='flex justify-center items-center'>
             <ul className='w-[244px] sm:w-[360px]'>
@@ -29,6 +33,7 @@ function Buttons() {
                            target={'_blank'}
                            rel={'noreferrer'}
                            className='btn'
+                           onClick={() => handleClick(event, "github")}
                         >
                             <Image
                                 src='/github.svg'
@@ -64,6 +69,7 @@ function Buttons() {
                            target={'_blank'}
                            rel={'noreferrer'}
                            className='btn'
+                           onClick={() => handleClick(event, "linkedin")}
                         >
                             <Image
                                 src='/linkedin.svg'
@@ -99,6 +105,7 @@ function Buttons() {
                            target={'_blank'}
                            rel={'noreferrer'}
                            className='btn'
+                           onClick={() => handleClick(event, "instagram")}
                         >
                             <Image
                                 src='/insta.svg'
@@ -134,6 +141,7 @@ function Buttons() {
                            target={'_blank'}
                            rel={'noreferrer'}
                            className='btn'
+                           onClick={() => handleClick(event, "spotify")}
                         >
                             <Image
                                 src='/spotify.svg'
@@ -169,6 +177,7 @@ function Buttons() {
                            target={'_blank'}
                            rel={'noreferrer'}
                            className='btn'
+                           onClick={() => handleClick(event, "twitter")}
                         >
                             <Image
                                 src='/twitter.svg'

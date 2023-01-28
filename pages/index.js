@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import {Analytics} from '@vercel/analytics/react';
 import dynamic from "next/dynamic";
 
 export default function Home() {
@@ -14,13 +13,12 @@ export default function Home() {
         <Head>
             <title>João Tavares</title>
             <meta name="description" content="João Tavares"/>
-            <link rel="icon" href="favicon.ico"/>
+            <link rel="icon" href="/favicon.ico"/>
         </Head>
         <main>
             <Profile/>
             <Buttons/>
         </main>
-        <Analytics/>
     </div>
 );
 }
