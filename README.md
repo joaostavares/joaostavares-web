@@ -4,7 +4,6 @@
   </p>
 </div>
 
-# Project without new deployments and without maintenance.
 
 A simple web page to add my personal links in a simple way.
 
