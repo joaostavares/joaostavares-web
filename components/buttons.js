@@ -28,7 +28,7 @@ function Buttons() {
                         transition: {
                             duration: .2
                         }
-                    }} className='text-xl font-body'>
+                    }} className='text-xl font-sans'>
                         <a href='https://www.github.com/joaostavares'
                            target={'_blank'}
                            rel={'noreferrer'}
@@ -64,7 +64,7 @@ function Buttons() {
                         transition: {
                             duration: .2
                         }
-                    }} className='text-xl font-body'>
+                    }} className='text-xl font-sans'>
                         <a href='https://www.linkedin.com/in/joaotavaress/'
                            target={'_blank'}
                            rel={'noreferrer'}
@@ -100,7 +100,7 @@ function Buttons() {
                         transition: {
                             duration: .2
                         }
-                    }} className='text-xl font-body' >
+                    }} className='text-xl font-sans' >
                         <a href='https://www.instagram.com/joaostavares/'
                            target={'_blank'}
                            rel={'noreferrer'}
@@ -136,7 +136,7 @@ function Buttons() {
                         transition: {
                             duration: .2
                         }
-                    }} className='text-xl font-body' >
+                    }} className='text-xl font-sans' >
                         <a href='https://open.spotify.com/user/serafini98?si=a4c8b1a645cd4b5c'
                            target={'_blank'}
                            rel={'noreferrer'}
@@ -172,7 +172,7 @@ function Buttons() {
                         transition: {
                             duration: .2
                         }
-                    }} className='text-xl font-body' >
+                    }} className='text-xl font-sans' >
                         <a href='https://twitter.com/joaostavaress'
                            target={'_blank'}
                            rel={'noreferrer'}
