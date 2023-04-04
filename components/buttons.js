@@ -101,7 +101,7 @@ function Buttons() {
                             duration: .2
                         }
                     }} className='text-xl font-sans' >
-                        <a href='https://www.instagram.com/joaostavares/'
+                        <a href='https://www.instagram.com/_j.tavares/'
                            target={'_blank'}
                            rel={'noreferrer'}
                            className='btn'
