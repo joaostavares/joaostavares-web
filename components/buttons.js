@@ -137,42 +137,6 @@ function Buttons() {
                             duration: .2
                         }
                     }} className='text-xl font-sans' >
-                        <a href='https://open.spotify.com/user/serafini98?si=a4c8b1a645cd4b5c'
-                           target={'_blank'}
-                           rel={'noreferrer'}
-                           className='btn'
-                           onClick={() => handleClick(event, "spotify")}
-                        >
-                            <Image
-                                src='/spotify.svg'
-                                alt='Spotify Logo'
-                                height={24}
-                                width={24}
-                                priority
-                            />
-                            &nbsp; Spotify
-                        </a>
-                    </motion.li>
-                </motion.div>
-                <motion.div initial="hidden" animate="visible" variants={{
-                    hidden: {
-                        scale: .8,
-                        opacity: 0
-                    },
-                    visible: {
-                        scale: 1,
-                        opacity: 1,
-                        transition: {
-                            delay: 1.1
-                        }
-                    },
-                }}>
-                    <motion.li whileHover={{
-                        scale: 1.1,
-                        transition: {
-                            duration: .2
-                        }
-                    }} className='text-xl font-sans' >
                         <a href='https://twitter.com/joaostavaress'
                            target={'_blank'}
                            rel={'noreferrer'}
