@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "cross-env": "^7.0.3",
-    "eslint": "^8.31.0",
+    "eslint": "^8.40.0",
     "eslint-config-next": "^13.1.1",
     "yarn-upgrade-all": "^0.7.1"
   }
