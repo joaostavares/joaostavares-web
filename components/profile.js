@@ -31,7 +31,7 @@ function Profile() {
                 />
             </motion.div>
             <div>
-                <motion.h2 className='font-body text-xl font-bold text-white' initial="hidden" animate="visible" variants={{
+                <motion.h2 className='font-sans text-xl font-bold text-white' initial="hidden" animate="visible" variants={{
                     hidden: {
                         scale: .8,
                         opacity: 0
@@ -45,7 +45,7 @@ function Profile() {
                     },
                 }}>João Tavares</motion.h2>
 
-                <motion.h2 className='font-body text-gray-400' initial="hidden" animate="visible" variants={{
+                <motion.h2 className='font-sans text-gray-400' initial="hidden" animate="visible" variants={{
                     hidden: {
                         scale: .8,
                         opacity: 0
