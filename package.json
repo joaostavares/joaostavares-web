@@ -10,8 +10,8 @@
   },
   "dependencies": {
     "autoprefixer": "^10.4.14",
-    "framer-motion": "^10.12.10",
-    "next": "^13.4.2",
+    "framer-motion": "^10.12.14",
+    "next": "^13.4.3",
     "nextjs-google-analytics": "^2.3.3",
     "postcss": "^8.4.23",
     "react": "^18.2.0",
@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "cross-env": "^7.0.3",
-    "eslint": "^8.40.0",
-    "eslint-config-next": "^13.4.2"
+    "eslint": "^8.41.0",
+    "eslint-config-next": "^13.4.3"
   }
 }
