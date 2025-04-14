@@ -101,7 +101,7 @@ function Buttons() {
                             duration: .2
                         }
                     }} className='text-xl font-sans' >
-                        <a href='https://www.instagram.com/_j.tavares/'
+                        <a href='https://www.instagram.com/joaostavaress/'
                            target={'_blank'}
                            rel={'noreferrer'}
                            className='btn'
@@ -115,42 +115,6 @@ function Buttons() {
                                 priority
                             />
                             &nbsp; Instagram
-                        </a>
-                    </motion.li>
-                </motion.div>
-                <motion.div initial="hidden" animate="visible" variants={{
-                    hidden: {
-                        scale: .8,
-                        opacity: 0
-                    },
-                    visible: {
-                        scale: 1,
-                        opacity: 1,
-                        transition: {
-                            delay: 1
-                        }
-                    },
-                }}>
-                    <motion.li whileHover={{
-                        scale: 1.1,
-                        transition: {
-                            duration: .2
-                        }
-                    }} className='text-xl font-sans' >
-                        <a href='https://twitter.com/joaostavaress'
-                           target={'_blank'}
-                           rel={'noreferrer'}
-                           className='btn'
-                           onClick={() => handleClick(event, "twitter")}
-                        >
-                            <Image
-                                src='/twitter.svg'
-                                alt='Twitter Logo'
-                                height={24}
-                                width={24}
-                                priority
-                            />
-                            &nbsp; Twitter
                         </a>
                     </motion.li>
                 </motion.div>
